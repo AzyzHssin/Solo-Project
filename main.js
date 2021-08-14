@@ -146,7 +146,7 @@ if(secondImg.slice(10,13)===downImg.slice(10,13)){
 	console.log("im in")
 	$('#imageup').html(`<p style="color:gold;" class="score">Player1 Took ${score} Points</p>`)	
 	player2+=score
- $('#me').html(`<p  style="color:gold;margin-top:150px" class="score" >Score : ${player2}</p>`)
+ $('#pc').html(`<p  style="color:black;margin-top:0px" class="score" ><br<br>Score : ${player2}</p>`)
  
  score=0;
  $(".imagedown2").html('')
